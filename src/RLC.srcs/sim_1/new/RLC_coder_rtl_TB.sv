@@ -24,13 +24,27 @@ reg clock, reset;
 reg in_valid = 0, out_ready = 1;
 wire in_ready, out_valid, oversize;
 integer test_iterator = 0;
-reg [0:1][0:31] data_in_tmp = { 32'b1111111_000000000_11111_00000_1_0_1111, 
-                                32'b1010_1010_1010_1010_1010_1010_1010_1010 };
+parameter tests_amount = 5;
+reg [0:tests_amount-1][0:31] data_in_tmp = 
+{   32'b1111111_000000000_11111_00000_1_0_1111, // basic data
+    32'b1010_1010_1010_1010_1010_1010_1010_1010,// huge oversize
+    32'b111111111_111111111_0101_0101_00000_1,  // 1 bit of oversize and 1 bit amount split   
+    32'b000000000_000000000_0101010_111111_0,   // 1 bit undersize and 0 bit amount split    
+    32'b000000000_0_111111111_1_0000_1111_0101  // exact amount of bits, splitting
+};
+reg [0:tests_amount-1][0:31] data_out_correct = 
+{   32'b10101_01111_10011_01011_11_00_10010_000,    // correct encoded data with size margin
+    32'b1100_1100_1100_1100_1100_1100_1100_1100,    // huge oversize
+    32'b10111_10111_00_11_00_11_00_11_00_11_01011_0,// 1 bit oversize
+    32'b01111_01111_00_11_00_11_00_11_00_10100_00_0,// 1 bit undersize
+    32'b01111_00_10111_11_01010_10010_00_11_00_11   // exact amount of bits, splitting
+};
+reg [0:tests_amount-1]oversize_correct = {1'b0, 1'b1, 1'b1, 1'b0, 1'b0};
+                                      
 reg [0:31] data_in = data_in_tmp[test_iterator];
 wire [0:31] data_out;
-reg [0:1][0:31] data_out_correct = { 32'b10_101_01_111_10_011_01_011_11_00_10_010_000,
-                                     32'b1100_1100_1100_1100_1100_1100_1100_1100 };
-reg is_correct = 0;
+reg is_data_correct = 0;
+reg is_oversize_correct = 0;
 
 RLC_coder_rtl coder(clock, reset, in_valid, in_ready, out_valid, out_ready, oversize, data_in, data_out);
 
@@ -79,18 +93,20 @@ always_ff @ (posedge clock)
 begin
     if (reset==1) 
     begin
-        is_correct<= 0;
+        is_data_correct<= 0;
+        is_oversize_correct<=0;
     end
     else 
     begin
         if (out_valid==1 && out_ready==1)
         begin
             out_ready <= 0;
-            is_correct <= (data_out == data_out_correct[test_iterator]) ? 1'b1 : 1'b0;
+            is_data_correct <= (data_out == data_out_correct[test_iterator]) ? 1'b1 : 1'b0;
+            is_oversize_correct <= (oversize == oversize_correct[test_iterator]) ? 1'b1 : 1'b0;
             test_iterator = test_iterator + 1;
             set_reset <= 1'b1; // one clock to reset = 1, so output will be reached
         end
-        if(test_iterator == 2 && set_reset == 1'b1)
+        if(test_iterator == tests_amount && set_reset == 1'b1)
             $stop;
     end
 end

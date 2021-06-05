@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="58973600fs"></ZoomStartTime>
-      <ZoomEndTime time="150607573fs"></ZoomEndTime>
-      <Cursor1Time time="96677000fs"></Cursor1Time>
+      <ZoomStartTime time="269437000fs"></ZoomStartTime>
+      <ZoomEndTime time="353890249fs"></ZoomEndTime>
+      <Cursor1Time time="350000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="189"></NameColumnWidth>
-      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+      <NameColumnWidth column_width="179"></NameColumnWidth>
+      <ValueColumnWidth column_width="208"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="22" />
+   <WVObjectSize size="24" />
    <wvobject fp_name="/RLC_coder_rtl_TB/clock" type="logic">
       <obj_property name="ElementShortName">clock</obj_property>
       <obj_property name="ObjectShortName">clock</obj_property>
@@ -52,9 +52,13 @@
       <obj_property name="ElementShortName">oversize</obj_property>
       <obj_property name="ObjectShortName">oversize</obj_property>
    </wvobject>
-   <wvobject fp_name="/RLC_coder_rtl_TB/is_correct" type="logic">
-      <obj_property name="ElementShortName">is_correct</obj_property>
-      <obj_property name="ObjectShortName">is_correct</obj_property>
+   <wvobject fp_name="/RLC_coder_rtl_TB/is_data_correct" type="logic">
+      <obj_property name="ElementShortName">is_data_correct</obj_property>
+      <obj_property name="ObjectShortName">is_data_correct</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RLC_coder_rtl_TB/is_oversize_correct" type="logic">
+      <obj_property name="ElementShortName">is_oversize_correct</obj_property>
+      <obj_property name="ObjectShortName">is_oversize_correct</obj_property>
    </wvobject>
    <wvobject fp_name="/RLC_coder_rtl_TB/coder/compression_valid" type="logic">
       <obj_property name="ElementShortName">compression_valid</obj_property>
@@ -68,6 +72,11 @@
       <obj_property name="ElementShortName">a_oversize</obj_property>
       <obj_property name="ObjectShortName">a_oversize</obj_property>
    </wvobject>
+   <wvobject fp_name="/RLC_coder_rtl_TB/test_iterator" type="array">
+      <obj_property name="ElementShortName">test_iterator[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_iterator[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/RLC_coder_rtl_TB/data_in" type="array">
       <obj_property name="ElementShortName">data_in[0:31]</obj_property>
       <obj_property name="ObjectShortName">data_in[0:31]</obj_property>
@@ -79,16 +88,33 @@
       <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct" type="array">
-      <obj_property name="ElementShortName">data_out_correct[0:1][0:31]</obj_property>
-      <obj_property name="ObjectShortName">data_out_correct[0:1][0:31]</obj_property>
+      <obj_property name="ElementShortName">data_out_correct[0:4][0:31]</obj_property>
+      <obj_property name="ObjectShortName">data_out_correct[0:4][0:31]</obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
       <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[0]" type="array">
          <obj_property name="ElementShortName">[0][0:31]</obj_property>
          <obj_property name="ObjectShortName">[0][0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[1]" type="array">
          <obj_property name="ElementShortName">[1][0:31]</obj_property>
          <obj_property name="ObjectShortName">[1][0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[2][0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[3][0:31]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[4][0:31]</obj_property>
          <obj_property name="Radix">BINARYRADIX</obj_property>
       </wvobject>
       <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[0]" type="array">
@@ -98,6 +124,18 @@
       <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[1]" type="array">
          <obj_property name="ElementShortName">[1][0:31]</obj_property>
          <obj_property name="ObjectShortName">[1][0:31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[2]" type="array">
+         <obj_property name="ElementShortName">[2][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[2][0:31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[3]" type="array">
+         <obj_property name="ElementShortName">[3][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[3][0:31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RLC_coder_rtl_TB/data_out_correct[4]" type="array">
+         <obj_property name="ElementShortName">[4][0:31]</obj_property>
+         <obj_property name="ObjectShortName">[4][0:31]</obj_property>
       </wvobject>
    </wvobject>
    <wvobject fp_name="/RLC_coder_rtl_TB/coder/a_datain" type="array">

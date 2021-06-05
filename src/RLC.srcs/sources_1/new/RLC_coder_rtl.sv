@@ -144,7 +144,8 @@ begin
         begin
             if (letter_amount == 1)
             begin
-                if (!(j < vector_size - letter_info_size))
+                // <= bacause j after operation can be equal to vector size
+                if (!(j <= vector_size - letter_info_size))
                 begin
                     a_oversize = 1;
                 end
@@ -155,8 +156,9 @@ begin
                 end
             end
             else
-            begin                        
-                if (!(j < vector_size - letter_info_size - letter_amount_size))
+            begin   
+                // <= bacause j after operation can be equal to vector size                     
+                if (!(j <= vector_size - letter_info_size - letter_amount_size))
                 begin
                     a_oversize = 1;
                 end
