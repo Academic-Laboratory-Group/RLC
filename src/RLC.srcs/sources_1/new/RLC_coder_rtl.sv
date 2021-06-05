@@ -52,6 +52,7 @@ begin
         dataout <= {vector_size{0}};
         a_datain <= {vector_size{0}};
         a_dataout <= {vector_size{0}};
+        oversize <= 0;
         a_oversize <= 0;
         compression_valid = 0;
     end
@@ -84,7 +85,7 @@ end
 integer letter_amount = 0;
 integer letter = 0;
 reg over_size = 0;
-integer j = 1;
+integer j = 0;
 integer i = 1;
 
 always_ff @ (posedge clock)
@@ -100,7 +101,7 @@ begin
         letter = a_datain[0];
         letter_amount = 1;
                
-        for (i = 1, j = 1; i < vector_size && a_oversize != 1; i++)
+        for (i = 1, j = 0; i < vector_size && a_oversize != 1; i++)
         begin
             if(letter == a_datain[i] && letter_amount < 9)
                 letter_amount++;
