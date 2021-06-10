@@ -1,0 +1,243 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 14200
+License: Customer
+
+Current time: 	Tue Jun 08 00:01:37 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 59 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Programy/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Programy/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Krzysiek
+User home directory: C:/Users/krzys
+User working directory: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: D:/Programy/Xilinx/Vivado
+HDI_APPROOT: D:/Programy/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Programy/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Programy/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Programy/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/vivado.log
+Vivado journal file location: 	D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/vivado.jou
+Engine tmp dir: 	D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/.Xil/Vivado-14200-DESKTOP-3DTPBS3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programy/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Programy/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Programy/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Programy/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Programy/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Programy/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 597 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\Pulpit\MicroBlaze\MicroBlaze\RLC_M\RLC_M.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 45 MB. Current time: 6/8/21, 12:01:39 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+95296kb) [00:00:16]
+// [Engine Memory]: 649 MB (+528808kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  3799 ms.
+// Tcl Message: open_project D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 702.562 ; gain = 80.945 
+// Project name: RLC_M; location: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M; part: xc7z020clg484-1
+// [GUI Memory]: 107 MB (+9616kb) [00:00:20]
+dismissDialog("Open Project"); // bx (cp)
+// [Engine Memory]: 683 MB (+1680kb) [00:00:22]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+// 'o' command handler elapsed time: 5 seconds
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_HARDWARE_SYSTEM_OUT_OF_DATE_No", "No"); // JButton (C, J)
+dismissDialog("Launch SDK"); // aa (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X (cp): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (X)
+// 'm' command handler elapsed time: 5 seconds
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Export Hardware"); // X (cp)
+// Tcl Message: write_hwdef -force  -file D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // ac (cp)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa (cp): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aa)
+dismissDialog("Launch SDK"); // aa (cp)
+// Tcl Message: launch_sdk -workspace D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 678 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1100 ms.
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 3); // O (Q, cp)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "coder_ip_v1.0 ; AXI4 ; Pre-Production ; Included ; xilinx.com:user:coder_ip:1.0", 4, "coder_ip_v1.0", 0, false); // O (Q, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 54 MB. Current time: 6/8/21, 12:13:44 AM CEST
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "coder_ip_v1.0 ; AXI4 ; Pre-Production ; Included ; xilinx.com:user:coder_ip:1.0", 4, "coder_ip_v1.0", 0, false, false, false, false, true, false); // O (Q, cp) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k (cp): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (k)
+// bx (cp):  Edit in IP Packager : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name coder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/coder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 113 MB (+425kb) [00:12:25]
+// [Engine Memory]: 730 MB (+13788kb) [00:12:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  3223 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// WARNING: HEventQueue.dispatchEvent() is taking  1743 ms.
+// Tcl Message: create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 754.336 ; gain = 29.922 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 768.133 ; gain = 43.719 
+// [Engine Memory]: 767 MB (+686kb) [00:12:31]
+// 'i' command handler elapsed time: 11 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Edit in IP Packager"); // bx (cp)
+// [GUI Memory]: 123 MB (+4666kb) [00:12:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 783 MB. GUI used memory: 68 MB. Current time: 6/8/21, 12:13:59 AM CEST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coder_ip_v1_0 (coder_ip_v1_0.v)]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coder_ip_v1_0 (coder_ip_v1_0.v), coder_ip_v1_0_S00_AXI_inst : coder_ip_v1_0_S00_AXI (coder_ip_v1_0_S00_AXI.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coder_ip_v1_0 (coder_ip_v1_0.v), coder_ip_v1_0_S00_AXI_inst : coder_ip_v1_0_S00_AXI (coder_ip_v1_0_S00_AXI.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, coder_ip_v1_0 (coder_ip_v1_0.v), coder_ip_v1_0_S00_AXI_inst : coder_ip_v1_0_S00_AXI (coder_ip_v1_0_S00_AXI.v)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [Engine Memory]: 818 MB (+13277kb) [00:12:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 70 MB. Current time: 6/8/21, 12:14:14 AM CEST
+// Elapsed time: 12 seconds
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 560, 246); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 567, 245); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 566, 245); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 566, 245); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 565, 244); // cl (w, cp)
+// Elapsed time: 52 seconds
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 1020, 301); // cl (w, cp)
+// Elapsed time: 35 seconds
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 505, 81); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 506, 83); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 507, 83); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 486, 114); // cl (w, cp)
+// Elapsed time: 27 seconds
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 469, 148); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 533, 147); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 532, 148); // cl (w, cp)
+selectCodeEditor("coder_ip_v1_0_S00_AXI.v", 490, 159); // cl (w, cp)
+// [GUI Memory]: 144 MB (+15665kb) [00:15:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 76 MB. Current time: 6/8/21, 12:44:15 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 69 MB. Current time: 6/8/21, 1:14:15 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 69 MB. Current time: 6/8/21, 1:44:15 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 69 MB. Current time: 6/8/21, 2:14:16 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 68 MB. Current time: 6/8/21, 2:44:16 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 850 MB. GUI used memory: 69 MB. Current time: 6/8/21, 3:14:17 AM CEST
+// Elapsed time: 10766 seconds
+closeMainWindow("RLC_M - [D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr] - Vivado 2018.3"); // cp
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cp): Close Project: addNotify

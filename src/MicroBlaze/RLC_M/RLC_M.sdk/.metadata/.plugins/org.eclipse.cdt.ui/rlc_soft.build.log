@@ -1,0 +1,21 @@
+22:56:55 **** Auto Build of configuration Debug for project rlc_soft ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../rlc_soft_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_soft.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../rlc_soft_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "rlc_soft.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_soft.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size rlc_soft.elf  |tee "rlc_soft.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3796	    320	   3132	   7248	   1c50	rlc_soft.elf
+'Finished building: rlc_soft.elf.size'
+' '
+
+22:56:56 Build Finished (took 1s.30ms)
+

@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RLC_Z.ip_user_files/bd/rlc_design/ip/rlc_design_rst_ps7_0_100M_0/sim/rlc_design_rst_ps7_0_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

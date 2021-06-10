@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_microblaze_0_0/sim/rlc_design_microblaze_0_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_axi_gpio_1_0/sim/rlc_design_axi_gpio_1_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_dlmb_v10_0/sim/rlc_design_dlmb_v10_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_ilmb_v10_0/sim/rlc_design_ilmb_v10_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_dlmb_bram_if_cntlr_0/sim/rlc_design_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_ilmb_bram_if_cntlr_0/sim/rlc_design_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_mdm_1_0/sim/rlc_design_mdm_1_0.vhd" \
+"../../../../RLC_M.ip_user_files/bd/rlc_design/ip/rlc_design_rst_clk_wiz_1_100M_0/sim/rlc_design_rst_clk_wiz_1_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

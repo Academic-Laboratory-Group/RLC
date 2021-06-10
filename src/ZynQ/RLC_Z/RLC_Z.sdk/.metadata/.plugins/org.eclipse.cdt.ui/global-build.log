@@ -1,0 +1,1929 @@
+15:43:08 **** Build of project rlc_design_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coder_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coder_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coder_ip..."
+coder_ip_selftest.c: In function 'CODER_IP_Reg_SelfTest':
+coder_ip_selftest.c:52:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( CODER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                         ^~
+coder_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling decoder_ip..."
+decoder_ip_selftest.c: In function 'DECODER_IP_Reg_SelfTest':
+decoder_ip_selftest.c:52:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( DECODER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                           ^~
+decoder_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project rlc_design ****
+
+Nothing to build for project rlc_design
+15:45:07 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27800	   1144	  22568	  51512	   c938	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+15:59:48 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27532	   1144	  22568	  51244	   c82c	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+16:06:17 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:08:19 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27540	   1144	  22568	  51252	   c834	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+16:08:21 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:20:39 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:16:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:20:49 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:16:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:21:14 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:16:10: fatal error: xil_printf.h: No such file or directory
+ #include "xil_printf.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:21:27 **** Auto Build of project rlc_design_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coder_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coder_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coder_ip..."
+coder_ip_selftest.c: In function 'CODER_IP_Reg_SelfTest':
+coder_ip_selftest.c:52:57: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( CODER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                         ^~
+coder_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/decoder_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling decoder_ip..."
+decoder_ip_selftest.c: In function 'DECODER_IP_Reg_SelfTest':
+decoder_ip_selftest.c:52:59: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( DECODER_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                           ^~
+decoder_ip_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+22:21:59 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27540	   1144	  22568	  51252	   c834	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:22:30 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:27:18 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:29:57 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+../src/rlc_decoder.c: In function 'RLC2bin':
+../src/rlc_decoder.c:17:10: warning: implicit declaration of function 'CODER_IP_mReadReg'; did you mean 'DECODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IN_FLAGS_OFF);
+          ^~~~~~~~~~~~~~~~~
+          DECODER_IP_mReadReg
+../src/rlc_decoder.c:17:28: error: 'CODER_BASE_ADDR' undeclared (first use in this function); did you mean 'DECODER_BASE_ADDR'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IN_FLAGS_OFF);
+                            ^~~~~~~~~~~~~~~
+                            DECODER_BASE_ADDR
+../src/rlc_decoder.c:17:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/rlc_decoder.c:17:45: error: 'CODER_IN_FLAGS_OFF' undeclared (first use in this function); did you mean 'DECODER_IN_FLAGS_OFF'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IN_FLAGS_OFF);
+                                             ^~~~~~~~~~~~~~~~~~
+                                             DECODER_IN_FLAGS_OFF
+../src/rlc_decoder.c:20:45: error: 'CODER_OUT_FLAGS_OFF' undeclared (first use in this function); did you mean 'DECODER_OUT_FLAGS_OFF'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_OUT_FLAGS_OFF);
+                                             ^~~~~~~~~~~~~~~~~~~
+                                             DECODER_OUT_FLAGS_OFF
+../src/rlc_decoder.c:31:2: warning: implicit declaration of function 'CODER_IP_mWriteReg'; did you mean 'DECODER_IP_mWriteReg'? [-Wimplicit-function-declaration]
+  CODER_IP_mWriteReg(CODER_BASE_ADDR, CODER_IN_FLAGS_OFF, control);
+  ^~~~~~~~~~~~~~~~~~
+  DECODER_IP_mWriteReg
+../src/rlc_decoder.c:45:38: error: 'CODER_DATA_IN_OFF' undeclared (first use in this function); did you mean 'DECODER_DATA_IN_OFF'?
+  CODER_IP_mWriteReg(CODER_BASE_ADDR, CODER_DATA_IN_OFF, data_in);
+                                      ^~~~~~~~~~~~~~~~~
+                                      DECODER_DATA_IN_OFF
+../src/rlc_decoder.c:92:49: error: 'CODER_DATA_OUT_OFF' undeclared (first use in this function); did you mean 'DECODER_DATA_OUT_OFF'?
+  *data_out = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_DATA_OUT_OFF);
+                                                 ^~~~~~~~~~~~~~~~~~
+                                                 DECODER_DATA_OUT_OFF
+../src/rlc_decoder.c:101:45: error: 'CODER_IP_S00_AXI_SLV_REG0_OFFSET' undeclared (first use in this function); did you mean 'DECODER_IP_S00_AXI_SLV_REG0_OFFSET'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IP_S00_AXI_SLV_REG0_OFFSET);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             DECODER_IP_S00_AXI_SLV_REG0_OFFSET
+../src/rlc_decoder.c:104:45: error: 'CODER_IP_S00_AXI_SLV_REG1_OFFSET' undeclared (first use in this function); did you mean 'CODER_IP_S00_AXI_SLV_REG0_OFFSET'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IP_S00_AXI_SLV_REG1_OFFSET);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             CODER_IP_S00_AXI_SLV_REG0_OFFSET
+../src/rlc_decoder.c:107:45: error: 'CODER_IP_S00_AXI_SLV_REG2_OFFSET' undeclared (first use in this function); did you mean 'CODER_IP_S00_AXI_SLV_REG1_OFFSET'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IP_S00_AXI_SLV_REG2_OFFSET);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             CODER_IP_S00_AXI_SLV_REG1_OFFSET
+../src/rlc_decoder.c:110:45: error: 'CODER_IP_S00_AXI_SLV_REG3_OFFSET' undeclared (first use in this function); did you mean 'CODER_IP_S00_AXI_SLV_REG2_OFFSET'?
+  flags = CODER_IP_mReadReg(CODER_BASE_ADDR, CODER_IP_S00_AXI_SLV_REG3_OFFSET);
+                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                             CODER_IP_S00_AXI_SLV_REG2_OFFSET
+make: *** [src/subdir.mk:35: src/rlc_decoder.o] Error 1
+22:31:43 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+../src/rlc_decoder.c: In function 'RLC2bin':
+../src/rlc_decoder.c:71:10: warning: implicit declaration of function 'CODER_IP_mReadReg'; did you mean 'DECODER_IP_mReadReg'? [-Wimplicit-function-declaration]
+  flags = CODER_IP_mReadReg(DECODER_BASE_ADDR, DECODER_IN_FLAGS_OFF);
+          ^~~~~~~~~~~~~~~~~
+          DECODER_IP_mReadReg
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/rlc_decoder.o: In function `RLC2bin':
+D:\Dokumenty\Pulpit\RLC\ZynQ\RLC_Z\RLC_Z.sdk\rlc_design\Debug/../src/rlc_decoder.c:71: undefined reference to `CODER_IP_mReadReg'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: rlc_design.elf] Error 1
+22:31:55 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27280	   1144	  22568	  50992	   c730	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:33:18 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:40:11 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24624	   1144	  22568	  48336	   bcd0	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:40:17 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+22:51:05 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:37:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize;
+           ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24624	   1144	  22568	  48336	   bcd0	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:51:49 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:13: error: too many arguments to function 'bin2RLC'
+          if(bin2RLC(data_in, &data_out, &oversize))
+             ^~~~~~~
+In file included from ../src/main.c:16:0:
+../src/rlc_coder.h:25:5: note: declared here
+ int bin2RLC(u32 data_in, u32* data_out);
+     ^~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+22:53:01 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:47:13: error: too many arguments to function 'bin2RLC'
+          if(bin2RLC(data_in, &data_out, &oversize))
+             ^~~~~~~
+In file included from ../src/main.c:16:0:
+../src/rlc_coder.h:25:5: note: declared here
+ int bin2RLC(u32 data_in, u32* data_out);
+     ^~~~~~~
+../src/main.c:54:11: error: expected ';' before 'print'
+           print("\n\rEncoded 32 bits of data:\n\r");
+           ^~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+22:53:16 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24752	   1144	  22568	  48464	   bd50	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:53:36 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24760	   1144	  22568	  48472	   bd58	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:54:18 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24768	   1144	  22568	  48480	   bd60	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:54:29 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:41:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:21:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:69:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:21:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+22:54:38 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:41:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:22:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:69:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:22:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+22:55:08 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c:51:5: error: redefinition of 'readData'
+ u32 readData()
+     ^~~~~~~~
+../src/Utils.c:40:5: note: previous definition of 'readData' was here
+ u32 readData(u32 size)
+     ^~~~~~~~
+../src/Utils.c: In function 'readData':
+../src/Utils.c:52:1: error: number of arguments doesn't match prototype
+ {
+ ^
+../src/Utils.c:40:5: error: prototype declaration
+ u32 readData(u32 size)
+     ^~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:55:19 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c:51:5: error: redefinition of 'readData'
+ u32 readData()
+     ^~~~~~~~
+../src/Utils.c:40:5: note: previous definition of 'readData' was here
+ u32 readData(u32 size)
+     ^~~~~~~~
+../src/Utils.c: In function 'readData':
+../src/Utils.c:52:1: error: number of arguments doesn't match prototype
+ {
+ ^
+../src/Utils.c:40:5: error: prototype declaration
+ u32 readData(u32 size)
+     ^~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:55:35 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:41:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:21:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:69:20: error: too few arguments to function 'readData'
+          data_in = readData();
+                    ^~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:21:5: note: declared here
+ u32 readData(u32 size);
+     ^~~~~~~~
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+22:57:01 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c: In function 'readData':
+../src/Utils.c:41:1: error: number of arguments doesn't match prototype
+ {
+ ^
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:21:5: error: prototype declaration
+ u32 readData(u32 size);
+     ^~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:57:20 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c: In function 'readData':
+../src/Utils.c:41:1: error: number of arguments doesn't match prototype
+ {
+ ^
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:21:5: error: prototype declaration
+ u32 readData(u32 size);
+     ^~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:58:00 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24888	   1144	  22568	  48600	   bdd8	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:58:20 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25036	   1144	  22568	  48748	   be6c	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:58:40 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24936	   1144	  22568	  48648	   be08	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:59:10 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c: In function 'print_binary':
+../src/Utils.c:58:9: error: too many arguments to function 'reverseBits'
+  data = reverseBits(data, size);
+         ^~~~~~~~~~~
+../src/Utils.c:28:5: note: declared here
+ u32 reverseBits(u32 num)
+     ^~~~~~~~~~~
+../src/Utils.c: In function 'print_u32':
+../src/Utils.c:68:21: error: expected expression before 'u32'
+  print_binary(data, u32);
+                     ^~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:59:17 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c: In function 'print_binary':
+../src/Utils.c:58:9: error: too many arguments to function 'reverseBits'
+  data = reverseBits(data, size);
+         ^~~~~~~~~~~
+../src/Utils.c:28:5: note: declared here
+ u32 reverseBits(u32 num)
+     ^~~~~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+22:59:24 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:59:42 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+22:59:58 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:11: warning: unused variable 'oversize' [-Wunused-variable]
+       u32 oversize = 0u;
+           ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:00:07 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:65:11: warning: unused variable 'undersize' [-Wunused-variable]
+       u32 undersize = 0u;
+           ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:00:16 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:75:13: error: too many arguments to function 'RLC2bin'
+          if(RLC2bin(data_in, &data_out, &undersize))
+             ^~~~~~~
+In file included from ../src/main.c:17:0:
+../src/rlc_decoder.h:26:5: note: declared here
+ int RLC2bin(u32 data_in, u32* data_out);
+     ^~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:00:32 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:75:13: error: too many arguments to function 'RLC2bin'
+          if(RLC2bin(data_in, &data_out, &undersize))
+             ^~~~~~~
+In file included from ../src/main.c:17:0:
+../src/rlc_decoder.h:26:5: note: declared here
+ int RLC2bin(u32 data_in, u32* data_out);
+     ^~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:01:15 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:75:13: error: too many arguments to function 'RLC2bin'
+          if(RLC2bin(data_in, &data_out, &undersize))
+             ^~~~~~~
+In file included from ../src/main.c:17:0:
+../src/rlc_decoder.h:26:5: note: declared here
+ int RLC2bin(u32 data_in, u32* data_out);
+     ^~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:03:02 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:75:13: error: too many arguments to function 'RLC2bin'
+          if(RLC2bin(data_in, &data_out, &undersize))
+             ^~~~~~~
+In file included from ../src/main.c:17:0:
+../src/rlc_decoder.h:26:5: note: declared here
+ int RLC2bin(u32 data_in, u32* data_out);
+     ^~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:03:04 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24924	   1144	  22568	  48636	   bdfc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:03:11 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:03:35 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:80:10: error: too many arguments to function 'print_u32'
+          print_u32(data_out, 32u - undersize);
+          ^~~~~~~~~
+In file included from ../src/rlc_decoder.h:15:0,
+                 from ../src/main.c:17:
+../src/Utils.h:24:6: note: declared here
+ void print_u32(u32 data);
+      ^~~~~~~~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:03:42 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24936	   1144	  22568	  48648	   be08	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:03:47 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:03:50 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:06:51 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24952	   1144	  22568	  48664	   be18	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:06:57 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:07:46 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:07:51 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24968	   1144	  22568	  48680	   be28	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:08:22 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24952	   1144	  22568	  48664	   be18	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:08:25 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:08:52 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24936	   1144	  22568	  48648	   be08	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:09:07 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24936	   1144	  22568	  48648	   be08	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:09:28 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24936	   1144	  22568	  48648	   be08	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:09:32 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:11:56 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24908	   1144	  22568	  48620	   bdec	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:12:26 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24864	   1144	  22568	  48576	   bdc0	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:12:30 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:14:49 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24880	   1144	  22568	  48592	   bdd0	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:14:51 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:16:10 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24876	   1144	  22568	  48588	   bdcc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:16:12 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:18:03 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:19:15 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24852	   1144	  22568	  48564	   bdb4	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:20:15 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:21:03 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24836	   1144	  22568	  48548	   bda4	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:21:41 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:21:44 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:22:42 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:22:47 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:23:01 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:24:11 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:84:33: error: expected expression before 'u32'
+          print_binary(data_out, u32(32 - undersize));
+                                 ^~~
+make: *** [src/subdir.mk:35: src/main.o] Error 1
+23:24:20 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:24:23 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:24:39 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:25:05 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24860	   1144	  22568	  48572	   bdbc	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:25:17 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:25:56 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:26:39 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c:17:5: error: conflicting types for 'reverseBitsSizable'
+ u32 reverseBitsSizable(u32 num, int size)
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:19:5: note: previous declaration of 'reverseBitsSizable' was here
+ u32 reverseBitsSizable(u32 num, u32 size);
+     ^~~~~~~~~~~~~~~~~~
+../src/Utils.c:56:6: error: conflicting types for 'print_binary'
+ void print_binary(u32 data, int size)
+      ^~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:23:6: note: previous declaration of 'print_binary' was here
+ void print_binary(u32 data, u32 size);
+      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+23:27:10 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c:17:5: error: conflicting types for 'reverseBitsSizable'
+ u32 reverseBitsSizable(u32 num, int size)
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:19:5: note: previous declaration of 'reverseBitsSizable' was here
+ u32 reverseBitsSizable(u32 num, u32 size);
+     ^~~~~~~~~~~~~~~~~~
+../src/Utils.c:56:6: error: conflicting types for 'print_binary'
+ void print_binary(u32 data, int size)
+      ^~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:23:6: note: previous declaration of 'print_binary' was here
+ void print_binary(u32 data, u32 size);
+      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+23:27:30 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c:17:5: error: conflicting types for 'reverseBitsSizable'
+ u32 reverseBitsSizable(u32 num)
+     ^~~~~~~~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:19:5: note: previous declaration of 'reverseBitsSizable' was here
+ u32 reverseBitsSizable(u32 num, u32 size);
+     ^~~~~~~~~~~~~~~~~~
+../src/Utils.c: In function 'reverseBits':
+../src/Utils.c:30:12: error: too many arguments to function 'reverseBitsSizable'
+     return reverseBitsSizable(num, 32u);
+            ^~~~~~~~~~~~~~~~~~
+../src/Utils.c:17:5: note: declared here
+ u32 reverseBitsSizable(u32 num)
+     ^~~~~~~~~~~~~~~~~~
+../src/Utils.c: At top level:
+../src/Utils.c:56:6: error: conflicting types for 'print_binary'
+ void print_binary(u32 data, int size)
+      ^~~~~~~~~~~~
+In file included from ../src/Utils.c:8:0:
+../src/Utils.h:23:6: note: previous declaration of 'print_binary' was here
+ void print_binary(u32 data, u32 size);
+      ^~~~~~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+23:27:44 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+../src/Utils.c: In function 'reverseBits':
+../src/Utils.c:30:12: error: too many arguments to function 'reverseBitsSizable'
+     return reverseBitsSizable(num, 32u);
+            ^~~~~~~~~~~~~~~~~~
+../src/Utils.c:17:5: note: declared here
+ u32 reverseBitsSizable(u32 num)
+     ^~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:35: src/Utils.o] Error 1
+23:27:58 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/Utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Utils.d" -MT"src/Utils.o" -o "src/Utils.o" "../src/Utils.c"
+'Finished building: ../src/Utils.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/rlc_coder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_coder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_coder.d" -MT"src/rlc_coder.o" -o "src/rlc_coder.o" "../src/rlc_coder.c"
+'Finished building: ../src/rlc_coder.c'
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24808	   1144	  22568	  48520	   bd88	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:28:03 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:29:06 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24808	   1144	  22568	  48520	   bd88	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:29:09 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:30:59 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24824	   1144	  22568	  48536	   bd98	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:31:01 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:31:49 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27092	   1144	  22568	  50804	   c674	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:31:52 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27092	   1144	  22568	  50804	   c674	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:32:01 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27092	   1144	  22568	  50804	   c674	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:32:04 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:32:38 **** Auto Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/rlc_decoder.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rlc_decoder.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../rlc_design_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rlc_decoder.d" -MT"src/rlc_decoder.o" -o "src/rlc_decoder.o" "../src/rlc_decoder.c"
+'Finished building: ../src/rlc_decoder.c'
+' '
+'Building target: rlc_design.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../rlc_design_bsp/ps7_cortexa9_0/lib -o "rlc_design.elf"  ./src/Utils.o ./src/main.o ./src/platform.o ./src/rlc_coder.o ./src/rlc_decoder.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rlc_design.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rlc_design.elf  |tee "rlc_design.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24812	   1144	  22568	  48524	   bd8c	rlc_design.elf
+'Finished building: rlc_design.elf.size'
+' '
+23:38:21 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+23:38:34 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:27:54 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:28:27 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+00:28:30 **** Incremental Build of configuration Debug for project rlc_design ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

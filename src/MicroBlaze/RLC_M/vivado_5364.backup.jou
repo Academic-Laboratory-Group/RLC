@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  8 23:55:26 2021
+# Process ID: 5364
+# Current directory: D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18028 D:\Dokumenty\Pulpit\RLC\MicroBlaze\RLC_M\RLC_M.xpr
+# Log file: D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/vivado.log
+# Journal file: D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/RLC_M.xpr
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/RLC_M.srcs/sources_1/bd/rlc_design/rlc_design.bd] -top
+launch_simulation
+open_wave_config D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/rlc_design_tb_behav.wcfg
+source rlc_design_tb.tcl
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+launch_sdk -workspace D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+close_sim
+launch_simulation
+open_wave_config D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M/rlc_design_tb_behav.wcfg
+source rlc_design_tb.tcl
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+close_sim

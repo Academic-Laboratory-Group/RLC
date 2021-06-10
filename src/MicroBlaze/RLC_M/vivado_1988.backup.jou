@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  8 23:18:54 2021
+# Process ID: 1988
+# Current directory: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent444 D:\Pulpit\MicroBlaze\MicroBlaze\RLC_M\RLC_M.xpr
+# Log file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/vivado.log
+# Journal file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name decoder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/decoder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/component.xml
+update_compile_order -fileset sources_1
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/hdl/rlc_decoder_rtl.sv]
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/hdl/decoder_ip_v1_0_S00_AXI.v]
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/hdl/decoder_ip_v1_0.v]
+launch_simulation
+source decoder_ip_v1_0.tcl
+ipx::merge_project_changes files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+ipx::edit_ip_in_project -upgrade true -name coder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/coder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/component.xml
+update_compile_order -fileset sources_1
+close_sim
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/coder_ip_v1_0_S00_AXI.v]
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/coder_ip_v1_0.v]
+set_property library xil_defaultlib [get_files  d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/rlc_coder_rtl.sv]
+launch_simulation
+source coder_ip_v1_0.tcl
+ipx::merge_project_changes files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+ipx::edit_ip_in_project -upgrade true -name decoder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/decoder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/component.xml
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {rlc_design_coder_ip_0_0 rlc_design_decoder_ip_0_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {rlc_design_coder_ip_0_0 rlc_design_decoder_ip_0_0}] -no_script -sync -force -quiet
+ipx::edit_ip_in_project -upgrade true -name decoder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/decoder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/component.xml
+update_ip_catalog -rebuild
+ipx::edit_ip_in_project -upgrade true -name decoder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/decoder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0/component.xml

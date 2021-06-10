@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  8 00:01:22 2021
+# Process ID: 14200
+# Current directory: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8428 D:\Pulpit\MicroBlaze\MicroBlaze\RLC_M\RLC_M.xpr
+# Log file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/vivado.log
+# Journal file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Dokumenty/Pulpit/RLC/MicroBlaze/RLC_M' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 702.562 ; gain = 80.945
+update_compile_order -fileset sources_1
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+write_hwdef -force  -file D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+launch_sdk -workspace D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ipx::edit_ip_in_project -upgrade true -name coder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/coder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 754.336 ; gain = 29.922
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/decoder_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/coder_ip_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/rlc_coder_rtl.sv:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/hdl/coder_ip_v1_0.v:]
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 768.133 ; gain = 43.719
+update_compile_order -fileset sources_1

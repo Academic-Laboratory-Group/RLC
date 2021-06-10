@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun  7 16:35:14 2021
+# Process ID: 11844
+# Current directory: D:/Pulpit/ZynQ/RLC_Z
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12924 D:\Pulpit\ZynQ\RLC_Z\RLC_Z.xpr
+# Log file: D:/Pulpit/ZynQ/RLC_Z/vivado.log
+# Journal file: D:/Pulpit/ZynQ/RLC_Z\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Pulpit/ZynQ/RLC_Z/RLC_Z.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/ZynQ/ip_repo/coder_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Pulpit/ZynQ/ip_repo/decoder_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:11 . Memory (MB): peak = 769.266 ; gain = 164.285
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  7 16:35:52 2021...

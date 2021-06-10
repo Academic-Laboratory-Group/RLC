@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  8 00:01:22 2021
+# Process ID: 14200
+# Current directory: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8428 D:\Pulpit\MicroBlaze\MicroBlaze\RLC_M\RLC_M.xpr
+# Log file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/vivado.log
+# Journal file: D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.xpr
+update_compile_order -fileset sources_1
+write_hwdef -force  -file D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+launch_sdk -workspace D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk -hwspec D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.sdk/rlc_design_wrapper.hdf
+ipx::edit_ip_in_project -upgrade true -name coder_ip_v1_0_project -directory D:/Pulpit/MicroBlaze/MicroBlaze/RLC_M/RLC_M.tmp/coder_ip_v1_0_project d:/Pulpit/MicroBlaze/MicroBlaze/ip_repo/coder_ip_1.0/component.xml
+update_compile_order -fileset sources_1
