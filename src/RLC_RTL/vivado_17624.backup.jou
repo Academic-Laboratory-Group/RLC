@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun  9 22:56:09 2021
+# Process ID: 17624
+# Current directory: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14464 D:\Dokumenty\Pulpit\RLC\RLC_RTL\src\RLC.xpr
+# Log file: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/vivado.log
+# Journal file: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.xpr
+update_compile_order -fileset sources_1
+launch_simulation

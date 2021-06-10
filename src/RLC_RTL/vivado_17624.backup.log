@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun  9 22:56:09 2021
+# Process ID: 17624
+# Current directory: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14464 D:\Dokumenty\Pulpit\RLC\RLC_RTL\src\RLC.xpr
+# Log file: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/vivado.log
+# Journal file: D:/Dokumenty/Pulpit/RLC/RLC_RTL/src\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 674.879 ; gain = 102.594
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'RLC_coder_rtl_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj RLC_coder_rtl_TB_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.sim/sim_1/behav/xsim'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 457786ea28de4a93a8cb30b4f6b944ca --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RLC_coder_rtl_TB_behav xil_defaultlib.RLC_coder_rtl_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sources_1/new/RLC_coder_rtl.sv:65]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sources_1/new/RLC_coder_rtl.sv:66]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sources_1/new/RLC_coder_rtl.sv:67]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+ERROR: [Common 17-180] Spawn failed: Broken pipe
+INFO: [Common 17-344] 'run_program' was cancelled
+1
+    while executing
+"catch {rdi::run_program $scr_file} error_log"
+    (procedure "::tclapp::xilinx::xsim::usf_launch_script" line 40)
+    invoked from within
+"::tclapp::xilinx::xsim::usf_launch_script "xsim" $step"
+    (procedure "tclapp::xilinx::xsim::elaborate" line 13)
+    invoked from within
+"tclapp::xilinx::xsim::elaborate { -simset sim_1 -mode behavioral -run_dir D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.sim/sim_1/behav/xsim -int_os_type 64..."
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 711.695 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 10 00:24:24 2021...

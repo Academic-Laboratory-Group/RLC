@@ -1,0 +1,741 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 12516
+License: Customer
+
+Current time: 	Tue Jun 08 10:30:55 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Belgrade)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 64 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Programy/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/Programy/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Krzysiek
+User home directory: C:/Users/krzys
+User working directory: D:/Pulpit/RLC/src
+User country: 	PL
+User language: 	pl
+User locale: 	pl_PL
+
+RDI_BASEROOT: D:/Programy/Xilinx/Vivado
+HDI_APPROOT: D:/Programy/Xilinx/Vivado/2018.3
+RDI_DATADIR: D:/Programy/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: D:/Programy/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/krzys/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/Programy/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Pulpit/RLC/src/vivado.log
+Vivado journal file location: 	D:/Pulpit/RLC/src/vivado.jou
+Engine tmp dir: 	D:/Pulpit/RLC/src/.Xil/Vivado-12516-DESKTOP-3DTPBS3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programy/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/Programy/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Programy/Xilinx/Vivado/2018.3
+XILINX_SDK: D:/Programy/Xilinx/SDK/2018.3
+XILINX_VIVADO: D:/Programy/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/Programy/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 574 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\Pulpit\RLC\src\RLC.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Pulpit/RLC/src/RLC.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Pulpit/RLC/src/RLC.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programy/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 85 MB (+86542kb) [00:00:17]
+// [Engine Memory]: 640 MB (+519207kb) [00:00:17]
+// [GUI Memory]: 98 MB (+9154kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  4887 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 695 MB. GUI used memory: 53 MB. Current time: 6/8/21, 10:31:03 AM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:08 . Memory (MB): peak = 706.695 ; gain = 124.074 
+// Project name: RLC; location: D:/Pulpit/RLC/src; part: xc7z020clg484-1
+// [Engine Memory]: 695 MB (+24811kb) [00:00:21]
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (RLC_coder_rtl.sv) elapsed time: 0.2s
+// Elapsed time: 142 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RLC_coder_rtl (RLC_coder_rtl.sv)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RLC_coder_rtl (RLC_coder_rtl.sv)]", 1, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 242, 127); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 293, 127); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 118, 314); // cl (w, cp)
+// [GUI Memory]: 103 MB (+631kb) [00:06:38]
+// Elapsed time: 230 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 116, 266); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 293, 184); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 286, 180); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 219, 300); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 296, 141); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 178, 213); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 164, 207); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 164, 207, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("RLC_coder_rtl.sv", 163, 211); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 220, 335); // cl (w, cp)
+// [GUI Memory]: 111 MB (+2100kb) [00:08:29]
+selectCodeEditor("RLC_coder_rtl.sv", 161, 264); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 69, 267); // cl (w, cp)
+// Elapsed time: 342 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 188, 264); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 154, 286); // cl (w, cp)
+// Elapsed time: 384 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 146, 318); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 140, 332); // cl (w, cp)
+// Elapsed time: 54 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 293, 276); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 368, 281); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("RLC_coder_rtl.sv", 152, 175); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 293, 27); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 160, 213); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 84, 231); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 154, 226); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 199, 283); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 32, 127); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 167, 349); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 323, 241); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 289, 162); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 84, 213); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RLC_coder_rtl.sv", 184, 263); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 127, 210); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 47, 180); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 222, 371); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 213, 385); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 89, 211); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 193, 213); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 271, 213); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+// Elapsed time: 31 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 222, 300); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 204, 250); // cl (w, cp)
+// Elapsed time: 19 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 201, 252); // cl (w, cp)
+// Elapsed time: 60 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 164, 212); // cl (w, cp)
+typeControlKey(null, null, 'z');
+selectCodeEditor("RLC_coder_rtl.sv", 285, 347); // cl (w, cp)
+// Elapsed time: 55 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 158, 207); // cl (w, cp)
+// Elapsed time: 28 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 61, 258); // cl (w, cp)
+// Elapsed time: 66 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 266, 280); // cl (w, cp)
+// Elapsed time: 43 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 65, 260); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 65, 265); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 58, 261); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 71, 286); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 37, 297); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 54, 319); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 54 MB. Current time: 6/8/21, 11:01:03 AM CEST
+// Elapsed time: 34 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 82, 318); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 145, 283); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 27, 302); // cl (w, cp)
+// Elapsed time: 62 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 220, 336); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 105, 354); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 221, 196); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 138, 297); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 289, 295); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 228, 196); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 271, 126); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 258, 107); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 274, 128); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 162, 315); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 55, 354); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 167, 142); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 347, 354); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 164, 128); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 278, 366); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 256, 369); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 256, 368); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 225, 405); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 142, 176); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 286, 399); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 51, 435); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 150, 177); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 281, 97); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 20, 131); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 187, 74); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 278, 314); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 247, 354); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 185, 319); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 277, 248); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 293, 365); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 179, 240); // cl (w, cp)
+// Elapsed time: 53 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 178, 129); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 183, 131); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 242, 382); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+// Elapsed time: 40 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 55, 229); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 140, 310); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 52, 331); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 219, 142); // cl (w, cp)
+// Elapsed time: 33 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 57, 399); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 142, 143); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 138, 245); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 87, 262); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 90, 264); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 107, 451); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 136, 384); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 136, 401); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 121, 417); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 254, 435); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 209, 413); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 214, 418); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 211, 418); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 211, 417); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 141, 351); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 152, 299); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 127, 352); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 175, 295); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 110, 248); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 175, 127); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 218, 141); // cl (w, cp)
+// Elapsed time: 50 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 54, 331); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 127, 202); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 1, 195); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 58, 213); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 57, 227); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 81, 259); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 119, 248); // cl (w, cp)
+// Elapsed time: 82 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 176, 232); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 112, 197); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 108, 212); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 110, 219); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 110, 227); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 110, 246); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 213, 229); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 134, 231); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 151, 251); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 176, 246); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 122, 226); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 31, 241); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 187, 230); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 112, 245); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 355, 312); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 167, 253); // cl (w, cp)
+// Elapsed time: 22 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 961, 295); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 244, 271); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 186, 276); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 291, 165); // cl (w, cp)
+// Elapsed time: 34 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 350, 320); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 136, 301); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 140, 298); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 224, 279); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 136, 199); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 221, 196); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 223, 197, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 133, 304); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 155, 328); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 82, 229); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 150, 334); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 150, 334); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 105, 301); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 104, 110); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 105, 127); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 82, 75); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 106, 110); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 112, 115); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 110, 123); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 103, 145); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 105, 161); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 120, 404); // cl (w, cp)
+// Elapsed time: 25 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 180, 400); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 474, 400); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 139, 416); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 59, 233); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 65, 231); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 224, 247); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 84, 276); // cl (w, cp)
+// Elapsed time: 38 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 15, 221); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+// Elapsed time: 28 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 74, 23); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 225, 206); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 54, 439); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 79, 179); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 116, 414); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 73, 357); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 73, 349); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 140, 314); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RLC_coder_rtl_TB (RLC_coder_rtl_TB.sv)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RLC_coder_rtl_TB (RLC_coder_rtl_TB.sv)]", 6, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RLC_coder_rtl_TB (RLC_coder_rtl_TB.sv)]", 6, true); // B (D, cp) - Node
+// Elapsed time: 54 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 123, 144); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 18, 147); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 110, 128); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 22, 149); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 123, 146); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 271, 155); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 268, 155, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("RLC_coder_rtl_TB.sv", 216, 159); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 247, 166); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 247, 163, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RLC_coder_rtl.sv", 1); // k (j, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 76, 356); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 231, 478); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 145, 411); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 178, 419); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 372, 401); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 367, 392); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl.sv", 108, 276); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl.sv", 943, 478); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RLC_coder_rtl_TB.sv", 2); // k (j, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 213, 177); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 185, 158); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 190, 145); // cl (w, cp)
+// Elapsed time: 35 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 196, 382); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 179, 336); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 312, 282); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 203, 346); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 137, 257); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 139, 257); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 44, 352); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 7, 229); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 5, 249); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 76, 231); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 33, 400); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 5, 126); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 84, 130); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 444, 128); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 200, 243); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("RLC_coder_rtl_TB.sv", 84, 316); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 178, 298); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 46, 200); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 14, 80); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 20, 92); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 9, 126); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 84, 211); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'c'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 27, 124); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 358, 215); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 28, 222); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 25, 439); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 54, 302); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 186, 297); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 190, 329); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 156, 338); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 125, 339); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 86, 436); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 145, 370); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 4, 382); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 435, 453); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 92, 415); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("RLC_coder_rtl_TB.sv", 85, 108); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 466, 27); // cl (w, cp)
+typeControlKey((HResource) null, "RLC_coder_rtl_TB.sv", 'v'); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 86, 320); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 190, 282); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 61, 159); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 81, 131); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 73, 154); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 74, 157); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 71, 133); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 83, 143); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 56, 185); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 68, 164); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 83, 178); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 57, 200); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 439, 215); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 273, 229); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("RLC_coder_rtl_TB.sv", 215, 282); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 197, 282); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 197, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("RLC_coder_rtl_TB.sv", 181, 95); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 64, 99); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 25, 136); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 22, 126); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 38, 145); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 81, 143); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 27, 143); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 54, 211); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 56, 270); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 82, 212); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 83, 193); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 88, 180); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 77, 178); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 83, 178); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 34, 175); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 74, 174); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 81, 163); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 82, 139); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 32, 143); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 42, 124); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 26, 177); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 34, 178); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 56, 193); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 57, 232); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 14, 244); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 214, 198); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 198, 202); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 259, 197); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 369, 230); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 83, 213); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 90, 231); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 91, 89); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 110, 205); // cl (w, cp)
+// Elapsed time: 29 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 693, 178); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 762, 1); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 701 MB. GUI used memory: 50 MB. Current time: 6/8/21, 11:31:03 AM CEST
+// Elapsed time: 12 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 102, 395); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 123, 484); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 285, 274); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("RLC_coder_rtl_TB.sv", 252, 419); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'RLC_coder_rtl_TB' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj RLC_coder_rtl_TB_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aI (aF, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'datain' [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:49]. ]", 19, false); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'datain' [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:49]. ]", 19, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;49;-;;-;16;-;"); // ah (Q, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 449, 271); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 234, 177); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 239, 178); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'RLC_coder_rtl_TB' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (C, I)
+// a (cp): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'oversize' [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:49]. ]", 20, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;49;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'data_in' might have multiple concurrent drivers [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:66]. ]", 21, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;66;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'data_in' might have multiple concurrent drivers [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:66]. ]", 21, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;66;-;;-;16;-;"); // ah (Q, cp)
+// Elapsed time: 20 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'data_in' might have multiple concurrent drivers [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:66]. ]", 21, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;66;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'oversize' [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:49]. ]", 20, false); // ah (Q, cp)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Pulpit\RLC\src\RLC.srcs\sim_1\new\RLC_coder_rtl_TB.sv;-;;-;16;-;line;-;49;-;;-;16;-;"); // ah (Q, cp)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-3823] variable 'data_in' might have multiple concurrent drivers [D:/Pulpit/RLC/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv:66]. ]", 21, false); // ah (Q, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("RLC_coder_rtl_TB.sv", 233, 391); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 223, 396); // cl (w, cp)
+selectCodeEditor("RLC_coder_rtl_TB.sv", 235, 389); // cl (w, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cp): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// bx (cp):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (cp):  Run Simulation : addNotify
+dismissDialog("Save Project"); // al (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'RLC_coder_rtl_TB' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Pulpit/RLC/src/RLC.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RLC_coder_rtl_TB_behav -key {Behavioral:sim_1:Functional:RLC_coder_rtl_TB} -tclbatch {RLC_coder_rtl_TB.tcl} -view {D:/Pulpit/RLC/src/RLC_coder_rtl_TB_behav.wcfg} -view {D:/Pulpit/RLC/src/RLC_decoder_rtl_TB_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// Elapsed time: 21 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

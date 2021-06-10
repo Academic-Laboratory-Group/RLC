@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.sim/sim_1/behav/xsim/glbl.v,1623067140,verilog,,,,glbl,,,,,,,,
+D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv,1623169609,systemVerilog,,,,RLC_coder_rtl_TB,,,,,,,,
+D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sim_1/new/RLC_decoder_rtl_TB.sv,1623188399,systemVerilog,,,,RLC_decoder_rtl_TB,,,,,,,,
+D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sources_1/new/RLC_coder_rtl.sv,1623170090,systemVerilog,,D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sim_1/new/RLC_coder_rtl_TB.sv,,RLC_coder_rtl,,,,,,,,
+D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sources_1/new/RLC_decoder_rtl.sv,1623181537,systemVerilog,,D:/Dokumenty/Pulpit/RLC/RLC_RTL/src/RLC.srcs/sim_1/new/RLC_decoder_rtl_TB.sv,,RLC_decoder_rtl,,,,,,,,
